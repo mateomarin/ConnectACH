@@ -1,0 +1,10 @@
+framework module ConnectPay {
+  umbrella header "ConnectPay.h"
+
+  export *
+  module * { export * }
+}
+
+module ConnectPay.Swift {
+    header "ConnectPay-Swift.h"
+}
